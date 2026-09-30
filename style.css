@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 255, 200);
+    color: #020202;
+}
+
+/* Imagens */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+h1 {
+    background-color: #39ebc5;
+    color: rgb(24, 23, 23);
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Texto */
+p {
+    width: min(85%, 800px);
+    margin: 30px auto;
+    padding: 25px;
+    line-height: 1.7;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Título do quiz */
+h2 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Caixa do quiz */
+.quiz-box {
+    width: min(85%, 800px);
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Pergunta principal */
+#pergunta {
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #111;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+}
+
+/* Texto do quiz */
+.quiz-texto {
+    font-size: 18px;
+    padding: 0 0 20px;
+    margin: 0;
+    text-align: center;
+    color: #222;
+}
+
+/* Título */
+#titulo {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Área do quiz */
+#quiz {
+    padding: 0;
+    margin-bottom: 0;
+    display: block;
+    background: transparent;
+}
+
+/* Questão */
+.questao {
+    margin-bottom: 25px;
+}
+
+/* Título da questão */
+#quiz h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Alternativas */
+#quiz button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    transition: 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+#quiz button:hover {
+    background-color: #39ebc5;
+    color: white;
+    
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 21px;
+        padding: 15px;
+    }
+
+    p {
+        width: 90%;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .quiz-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #pergunta {
+        font-size: 20px;
+    }
+
+    #quiz h3 {
+        font-size: 19px;
+    }
+
+    #quiz button {
+        font-size: 15px;
+        padding: 13px;
+    }
+}
+
+
+
